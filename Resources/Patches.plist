@@ -442,14 +442,20 @@
 			<key>Flags</key>
 			<string>PF::MatchSuffix</string>
 		</dict>
-		<dict>
-			<key>Path</key>
-			<string>/VDADecoderChecker</string>
-			<key>Section</key>
-			<string>NVDA</string>
-			<key>Flags</key>
-			<string>PF::MatchSuffix</string>
-		</dict>
+        <dict>
+            <key>Path</key>
+            <string>/VDADecoderChecker</string>
+            <key>Section</key>
+            <string>NVDA</string>
+            <key>Flags</key>
+            <string>PF::MatchSuffix</string>
+        </dict>
+        <dict>
+            <key>Path</key>
+            <string>/usr/local/bin/mpv</string>
+            <key>Section</key>
+            <string>NVDA</string>
+        </dict>
 	</array>
 </dict>
 </plist>

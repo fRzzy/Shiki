@@ -91,6 +91,7 @@ UserPatcher::ProcInfo ADDPR(procInfo)[] {
 	{ "/Visual Studio Code.app/Contents/MacOS/Electron", 47, SectionNVDA, PF::MatchSuffix },
 	{ "/Google Chrome.app/Contents/MacOS/Google Chrome", 47, SectionNVDA, PF::MatchSuffix },
 	{ "/VDADecoderChecker", 18, SectionNVDA, PF::MatchSuffix },
+	{ "/usr/local/bin/mpv", 18, SectionNVDA, PF::MatchExact },
 };
 
-const size_t ADDPR(procInfoSize) {21};
+const size_t ADDPR(procInfoSize) {22};
